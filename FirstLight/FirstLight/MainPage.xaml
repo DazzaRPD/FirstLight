@@ -4,8 +4,27 @@
              xmlns:local="clr-namespace:FirstLight"
              x:Class="FirstLight.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="Genesis App v1" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
+    <Grid 
+        
+          <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Source="Images/AdminIcon.png"
+               IsEnabled="True"
+               IsVisible="True"
+               />
+        
+
+    </Grid>
+    
 </ContentPage>
